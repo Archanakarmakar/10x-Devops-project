@@ -8,10 +8,13 @@ body {
   color: #1d2b3a;
 }
 header {
-  background: #ff7f50;
+  background-image: radial-gradient(circle at top left, rgba(255,255,255,0.55), transparent 35%),
+    linear-gradient(135deg, #ff9e80 0%, #ff7f50 45%, #ffb7a3 100%);
   color: #ffffff;
-  padding: 24px 20px;
+  padding: 32px 20px;
   text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 header h1 {
   margin: 0 0 8px;
@@ -20,6 +23,25 @@ header h1 {
 header p {
   margin: 0;
   font-size: 1.05rem;
+  opacity: 0.95;
+}
+.welcome-card {
+  margin: 24px auto 0;
+  max-width: 680px;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 18px;
+  padding: 18px 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(12px);
+}
+.welcome-card h2 {
+  margin: 0 0 8px;
+  font-size: 1.75rem;
+}
+.welcome-card p {
+  margin: 0;
+  font-size: 1rem;
   opacity: 0.95;
 }
 main {
