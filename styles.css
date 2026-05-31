@@ -1,0 +1,14 @@
+/* Basic beginner-friendly styles */
+body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; margin: 0; padding: 0; background:#f7f9fc; color:#222 }
+header { background:#2b78c1; color:white; padding:20px 16px }
+header h1 { margin:0 0 6px }
+main { padding:16px }
+.places-list { list-style:none; padding:0; margin:0 }
+.places-list li { margin:8px 0 }
+.places-list a { color:#2b78c1; text-decoration:none; font-weight:600 }
+.places-list a:hover { text-decoration:underline }
+section { margin-top:18px; background:white; padding:12px; border-radius:6px }
+footer { text-align:center; padding:12px; font-size:0.9rem; color:#555 }
+.place-header { margin-top:0 }
+.back-link { display:inline-block; margin-top:12px; color:#2b78c1 }
+@media (min-width:700px){ main { max-width:900px; margin:0 auto } }
